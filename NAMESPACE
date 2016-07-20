@@ -1,0 +1,4 @@
+useDynLib(ChIPtest)
+export(NormTransformation, est.c,TS_kernel, TS_twosample)
+importFrom("graphics", "hist")
+importFrom("stats", "ksmooth", "quantile")
